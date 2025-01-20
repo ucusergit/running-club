@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-/* General styles */
+/* General styles -----------------------------------------------------------------------------------------*/
 body {
     min-height: 100vh;
     display: flex;
@@ -27,7 +27,7 @@ h3 {
     color: #252525;
 }
 
-/* Header */
+/* Header -------------------------------------------------------------------------------------------------*/
 header {
     background-color: #ffffff;
     padding: 0 1rem;
@@ -186,7 +186,24 @@ main {
     color: #fafafa;
 }
 
-/* Footer */
+/* Galery page */
+#photos img{
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos{
+    line-height: 0;
+}
+
+
+
+
+
+
+
+
+/* Footer -------------------------------------------------------------------------------------------------*/
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -201,7 +218,7 @@ main {
     color: #3a3a3a;
 }
 
-/* Media query: tablets and larger (768px and up) */
+/* Media query: tablets and larger (768px and up) ----------------------------------------------------------*/
 @media screen and (min-width: 768px) {
 
     /* Header */
